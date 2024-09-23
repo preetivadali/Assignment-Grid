@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:wheat;
+    margin: 20px 20px;
+    height: 100vh;
+   }
+   .item-1{
+   background-color:  #007F5F;
+   }
+   .item-1{
+    background-color:  #2B9348;
+    }
+
+    .item-1{
+     background-color: #2B9348;
+        }
+
+    .item-1{
+    background-color: #80B918;
+        }
+
+    .item-1{
+     background-color: #AACC00;
+        }
+
+    .item-1{
+    background-color: #BFD200;
+        }
+
+    .item-1{
+     background-color: #BFD200;
+         }
+
+    .item-1{
+     background-color: #EEEF20;
+        }
+
+    .item-1{
+      background-color:#FFFF3F;
+         }
+
+    .item-1{
+      background-color: #D4D700;
+          }
+    .item-1{
+     background-color:#007F5F;
+          }
+                                 
