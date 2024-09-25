@@ -1,53 +1,90 @@
-body{
+body {
     margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    padding: 0;
+   
+    
 }
-
-.container{
-    background-color:wheat;
-    margin: 20px 20px;
+main{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(12, 1fr);   
+    width: 100%;
     height: 100vh;
-   }
-   .item-1{
-   background-color:  #007F5F;
-   }
-   .item-1{
-    background-color:  #2B9348;
-    }
-
-    .item-1{
-     background-color: #2B9348;
-        }
-
-    .item-1{
-    background-color: #80B918;
-        }
-
-    .item-1{
-     background-color: #AACC00;
-        }
-
-    .item-1{
-    background-color: #BFD200;
-        }
-
-    .item-1{
-     background-color: #BFD200;
-         }
-
-    .item-1{
-     background-color: #EEEF20;
-        }
-
-    .item-1{
-      background-color:#FFFF3F;
-         }
-
-    .item-1{
-      background-color: #D4D700;
-          }
-    .item-1{
-     background-color:#007F5F;
-          }
-                                 
+    gap: 10px;
+}
+.item1 {
+    grid-column: 1 / span 2; 
+    grid-row: 1 / span 3;   
+    background-color: #3a7562;
+}
+.item2 {
+    grid-column:1 / span 2;; 
+    grid-row: 4 / span 3;    
+    background-color: #598c48;
+}
+.item3 {
+    grid-column: 1 / span 2; 
+    grid-row: 7/ span 4;    
+    background-color: #497f3c;
+}
+.item4 {
+    grid-column: 3 / span 2; 
+    grid-row: 1 / span 6;   
+    background-color: #8caf4a;
+}
+.item5 {
+    grid-column: 3 / span 1; 
+    grid-row: 7 / span 2;    
+    background-color: #c4cc4a;
+}
+.item6 {
+    grid-column: 3 / 4; 
+    grid-row: 9/ span 2;    
+    background-color: #afbf4a;
+}
+.item7 {
+    grid-column: 5 / span 2; 
+    grid-row: 1 / span 2;    
+    background-color: #d5de4a;
+}
+.item8 {
+    grid-column: 5 / 7; 
+    grid-row: 3/ span 2;    
+    background-color: #e6e05a;
+}
+.item9 {
+    grid-column: 5 / 7; 
+    grid-row: 5/ span 2;   
+    background-color: #f0ed52;
+}
+.item10 {
+    grid-column: 4 / 6; 
+    grid-row: 7/ span 4;   
+    background-color: #d4dd4b;
+}
+.item11 {
+    grid-column: 6 / 7; 
+    grid-row: 7/ span 4;    
+    background-color: #3a7562;
+}
+.text_below {
+    background-color: lightblue;
+    grid-column: 1 / span 6; 
+    grid-row: 11/ span 4;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding: 5px;
+}
